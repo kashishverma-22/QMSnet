@@ -537,6 +537,17 @@ img {
   .language-flags {
     display: none;
   }
+
+  .nav-menu.mobile-open + .language-flags {
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    padding: 20px 27px;
+    gap: 20px;
+    border-top: 1px solid #ddd;
+    box-sizing: border-box;
+    background: #f1f1f1;
+  }
 }
 /* =====================================================
    600px
